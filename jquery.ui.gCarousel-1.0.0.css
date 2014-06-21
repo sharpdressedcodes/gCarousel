@@ -1,0 +1,79 @@
+
+/*
+
+--------------------------------------------------------------------------------------------------
+
+Project:      -
+Developer:    Greg Kappatos
+Company:      Website Connect
+Web:          http://websiteconnect.com.au
+Date:         26 September, 2012
+Notes:
+
+
+Notices:      This code was developed by Website Connect, and is the copyrighted work of Website Connect.
+              Any unauthorised editing, copying, etc without written permission from
+              Website Connect will result in legal action.
+              The developer and the owner cannot be held responsible for any damage this code
+              may cause.
+
+--------------------------------------------------------------------------------------------------
+
+*/
+
+.list_carousel {
+  /*background-color: #ccc;
+	margin: 0 0 30px 60px;
+  width: 910px;
+  overflow:hidden;*/
+  /*width:920px;*/
+  width:910px;
+  /*height:115px;*/
+  height:105px;
+  /*height:135px;*/
+  overflow:hidden;
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  margin-left:0px;
+  width:2000px;
+  height:110px;
+  overflow:hidden;
+}
+.list_carousel li {
+  text-align:center;
+  float:left;
+  width:134px;
+  /*margin-right:10px;*/
+  /* margin-right:9px; */
+  margin-right:21px;
+  /*border:5px solid #ccc;*/
+  border:none;
+  height:100px;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+  height:0px; /* required for ie7 */
+}
+
+.carouselContainer {font-size:0.75em;overflow:hidden;position:relative;} /* position:relative is needed for ie7 overflow:hidden to work */
+.carouselTitle {font-weight:normal;margin-bottom:2px;float:left;font-size:1.1em;padding:5px;padding-right:0;}
+.carouselLoading {float:right;display:none;margin-top:5px;}
+.carouselProgress {height:5px;margin-bottom:5px;display:none;}
+.carouselNavigation {float:right;}
+.carouselNavigation li , .carouselPagination li {padding:0;}
+.carouselNavigation li {margin-right:5px;float:left;} /* float:left required for ie7 */
+.carouselNavigation li.ui-button-icon-only {width:1.7em;}
+.carouselNavigation li.ui-button-icon-only .ui-icon {left:48%;} /* otherwise the pause button icon is a bit to the right */
+.carouselNavigation .ui-button-icon-only .ui-button-text {padding:9px;}
+.carouselPagination .ui-button-icon-only .ui-button-text {padding:9px;}
+.carouselPagination li.ui-button-icon-only {width:1.8em;}
+.carouselPagination .ui-button-text-only .ui-button-text {padding:0.2em 0.4em;/*font-size:0.75em;*/}
+.carouselPagination ul,.carouselNavigation ul {list-style-type:none;margin:0;padding:0;}
+.carouselPagination li {float:left;margin-right:5px;}
+.carouselInfo {margin-right:8px;}
